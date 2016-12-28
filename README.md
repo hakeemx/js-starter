@@ -18,5 +18,16 @@ Run the 3 commands below:
 
 To get started open the terminal or command line and run "npm run dev" to start the server. 
 
-After installing...Open http://localhost:8080/webpack-dev-server/ and your page will refresh everytime you make a change to the javascript file(Store in src/js by default). 
+## After Installing
+
+Open http://localhost:8000/webpack-dev-server in your browser to run a local server. 
+
+## Tips
+
+To ensure your bundle file gets compiled I recommend running 2 instances of your terminal(Have 2 command prompts or terminals open).
+
+1. In terminal 1 run "webpack --watch"
+2. In terminal 2 run "npm run dev"
+
+This will ensure that your bundle file gets updated and you always see your latest file changes in real time.
 
