@@ -20,7 +20,7 @@ To get started open the terminal or command line and run "npm run dev" to start 
 
 ## After Installing
 
-Open http://localhost:8000/webpack-dev-server in your browser to run a local server. 
+Open http://localhost:8000/webpack-dev-server in your browser to run your dev server. 
 
 ## Tips
 
