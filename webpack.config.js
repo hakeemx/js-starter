@@ -1,11 +1,17 @@
 var debug = process.env.NODE_ENV !== "production";
 var webpack = require('webpack');
+var path = require('path');
 var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
   context: __dirname + "",
   devtool: debug ? "inline-sourcemap" : null,
   entry: "./src/js/scripts.js",
+  output: {
+    path: path.join(__dirname, './src/js'),
+    publicPath: "./src/js",
+    filename: "client.min.js"
+  },
   module: {
     loaders: [
       { 
@@ -18,11 +24,6 @@ module.exports = {
         } 
       }
     ]
-  },
-  output: {
-    path: __dirname + "/src/js",
-    publicPath: "/src/js",
-    filename: "client.min.js"
   },
   devServer:{
     contentBase: __dirname,

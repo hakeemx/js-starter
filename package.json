@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hakeem430201/folio.git"
+    "url": "git+https://github.com/hvk33m/react-live-starter.git"
   },
   "author": "Hakeem G",
   "license": "ISC",
@@ -30,7 +30,9 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-router": "^2.8.1",
-    "webpack": "^1.13.2"
+    "redux": "^3.6.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
   },
   "devDependencies": {
     "browser-sync": "^2.17.5",
